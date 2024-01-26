@@ -1,10 +1,10 @@
-import './App.css'
+import { Navbar } from "./components/shared/Navbar"
 
 function App() {
 
   return (
   <div>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, veniam.</p>
+   <Navbar/>
   </div>
   )
 }
