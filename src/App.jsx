@@ -1,19 +1,19 @@
 import { Details } from "./pages/Details"
+import { Error404 } from "./pages/Error"
 import { Home } from "./pages/Home"
 import {createBrowserRouter, RouterProvider} from "react-router-dom"
 
 const router = createBrowserRouter([
   {
     path:"/",
-    element:<Home/>
+    element:<Home/>,
+    errorElement:<Error404/>
   },
   {
     path:"/Details",
-    element:<Details/>
-  },
-  {
-    path:"*",
-    element:<Error/>
+    element:<Details/>,
+    errorElement:<Error404/>
+   
   }
 ])
 
