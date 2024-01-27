@@ -8,7 +8,7 @@ return(
 
     <div>
         <h2 className="font-semibold text-[30px] text-white pt-[1em] pb-[.5em]">New Realease</h2>
-        <div className="flex gap-[1em] " >
+        <div className="flex gap-[1em]">
         <AnimeNewRelease/>
         </div>
     </div>
@@ -20,9 +20,9 @@ return(
 export const AnimeNewRelease = ()=>{
 
 return(
-<div className="flex gap-[1em]" >
+<div className="flex gap-[1em] flex-wrap" >
     
-<div className="text-white" >
+<div className="text-white " >
     <div style={{backgroundImage:`url(${attackontitan})`}} className="bg-no-repeat h-[30vh] rounded-[10px] pt-[9em] px-[2em]">
 <h2>Episode 1018</h2>
     </div>
@@ -58,6 +58,39 @@ return(
 
 <div className="text-white" >
     <div style={{backgroundImage:`url(${captsu})`}} className="bg-no-repeat h-[30vh] rounded-[10px] pt-[9em] px-[2em] "  >
+<h2>Episode 1018</h2>
+    </div>
+    <p className="px-[1em]" >Shingeki no kyoujin</p>
+</div>
+
+
+
+
+
+
+<div className="text-white" >
+    <div style={{backgroundImage:`url(${captsu})`}} className="bg-no-repeat h-[30vh] rounded-[10px] pt-[9em] px-[2em] "  >
+<h2>Episode 1018</h2>
+    </div>
+    <p className="px-[1em]" >Shingeki no kyoujin</p>
+</div>
+
+
+
+
+
+<div className="text-white" >
+    <div style={{backgroundImage:`url(${aoashi})`}} className="bg-no-repeat h-[30vh] rounded-[10px] pt-[9em] px-[2em] "  >
+<h2>Episode 1018</h2>
+    </div>
+    <p className="px-[1em]" >Shingeki no kyoujin</p>
+</div>
+
+
+
+
+<div className="text-white" >
+    <div style={{backgroundImage:`url(${attackontitan})`}} className="bg-no-repeat h-[30vh] rounded-[10px] pt-[9em] px-[2em] "  >
 <h2>Episode 1018</h2>
     </div>
     <p className="px-[1em]" >Shingeki no kyoujin</p>
